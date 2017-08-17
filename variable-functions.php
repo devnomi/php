@@ -54,6 +54,7 @@ echo "<h3>is_object</h3>";
 $conx = mysqli_connect("localhost", "root", "");
 var_dump(is_object($conx));
 var_dump(is_object($x));
+var_dump(is_object([1,2,3]));
 
 echo "<hr>";
 echo "<h3>intval</h3>";
